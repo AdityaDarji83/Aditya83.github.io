@@ -1,0 +1,250 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@1,800&family=Josefin+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital@1&family=Josefin+Sans:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    position: absolute;
+   background-color: rgb(67, 148, 198);
+    font-family: 'Open Sans', sans-serif;
+    height: 100vh;
+    transition: transform 0.2s ease-in;
+}
+.sidebar{
+    padding: 45px;
+
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 29px;
+    padding: 34px 9px 11px 0px;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.main{
+   
+    width: 90vw;
+
+}
+.container{
+    display: flex;
+}
+.infoContainer {
+    height: 58vh;
+    width: 80vw;
+    margin: 147px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devpic img{
+   height: 58vh;
+}
+
+.devInfo{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Chivo Mono', monospace;  
+    margin-top: 115px; 
+}
+
+.hello{
+    font-size: 3em;   
+}
+
+.name{
+    font-size:3em;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.about{
+    font-size:40px;
+}
+
+.moreabout{
+    font-size: 2.em;
+    margin-top: 23px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.buttons{
+    margin-top: 2.2em;
+    font-size: 16px;
+}
+.btn {
+    padding: 15px 25px;
+    border-radius: 21px;
+    color: #ffffff;
+    background-color: rgb(22, 13, 82);
+    font-weight: bold;
+    font-size: 2em;
+    margin: 0 3px;
+    cursor: pointer; 
+}
+
+.btn-sm{
+    font-size:16px;
+    padding: 10px 19px;
+    margin: 12px 0;
+}
+.btn:hover{
+    background-color: rgb(102, 117, 207);
+    color: #ffffff;;
+}   
+
+.contactfrom{  
+    padding: 0 34px;
+    padding-top: 144px;
+    font-family: 'Chivo Mono', monospace; 
+    margin: 0 95px;
+
+}
+
+.contactfrom h1{
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.contactfrom form div{
+    padding: 12px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactfrom form div input{
+    
+    padding: 5px;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+}
+.contactfrom form div input{
+    
+    margin: 0 20px;
+}
+#emailHelp{
+    font-size: 11px;
+    color: #8b0707;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+#form-check{
+ flex-direction: row;
+}
+
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+}
+
+.blogItem{
+    margin: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+ h1{
+    margin: 83px;
+    margin-left: 13px;
+    margin-top: 66px;
+    margin-bottom: 43px;
+}
+
+ p{
+    font-family: 'Chivo Mono', monospace; 
+
+}
+.intro h2{
+    font-family: 'Josefin Sans', sans-serif;
+    margin:  12px;
+    margin-left: 22px;
+}
+
+.intro p{
+    font-family: 'Chivo Mono', monospace;
+    margin: 8px;
+    margin-top: -39px;
+    margin-left: 55px;
+}
+
+.skillcontainer{
+    padding: 11px;
+    margin-left: 39px;
+    margin-top: -8px;
+
+}
+
+.skillItem{
+    display: flex;
+    align-items: center;
+    font-family: 'Chivo Mono', monospace;
+    font-weight: 600;
+}
+
+.skill{
+    width: 265px;
+    height: 9px;
+    background-color: rgb(214, 141, 31);
+    border: 2px solid black;
+}
+
+.hundered{
+    width: 265px;
+    background-color: blueviolet;
+
+}
+
+.fifty{
+    width: 125px;
+    background-color: aquamarine;
+    
+}
+
+.t5{
+    width: 75px;
+    background-color: #8b0707;
+}
+.sidebarGo{
+    transform: translate(-534px, 0px);
+    position: absolute;
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.cross{
+    padding-top: 1px;
+    margin: 14px;
+    margin-left: 240px;
+}
+.task{
+    padding: 0px;
+    margin-left: 28px
+}
+
+@media (max-width: 1615px) {
+    .buttons{
+        font-size: 6px;
+    }
+
+    .devInfo{
+        font-size: 10px;
+    }
+    .devpic{
+        display: none;
+    }
+  .intro, .blogContainer,.contactfrom{
+    margin: -59px;
+    margin-top: 91px;
+    margin-left: -9px;
+  }
+}
